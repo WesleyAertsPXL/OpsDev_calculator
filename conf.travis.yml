@@ -1,2 +1,6 @@
 language: php
-
+php:
+ - "stable"
+ script:
+ - composer install
+ - phpunit.xml tests

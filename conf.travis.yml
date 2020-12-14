@@ -1,3 +1,6 @@
 language: php
-script:
-- composer install
+php:
+ - "stable"
+ script:
+ - composer install
+ - phpunit.xml tests
